@@ -5,7 +5,7 @@ def snake_it_up(string)
 #   binding.pry
   if string.start_with?("s")
 #  binding.pry
-   "ssssssssss + #{string}!"
+   "ssssssssss" + "#{string}!"
 #binding.pry
 
   else
