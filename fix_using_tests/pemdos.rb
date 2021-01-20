@@ -6,7 +6,7 @@ def snake_it_up(string)
   if string =~ /^[s]/
   #binding.pry
   puts "ssssssssss" + "#{string}!"
-binding.pry
+#binding.pry
 
   else
     string
