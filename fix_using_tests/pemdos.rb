@@ -3,7 +3,7 @@ require 'pry'
 
 def snake_it_up(string)
 #   binding.pry
-  if string =~ /^[s]/
+  if string =~ /^[s]/.to_s
   #binding.pry
   puts "ssssssssss" + "#{string}!"
 #binding.pry
