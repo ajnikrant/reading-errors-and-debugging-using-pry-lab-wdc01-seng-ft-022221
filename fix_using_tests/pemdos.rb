@@ -2,8 +2,8 @@
 require 'pry'
 
 def snake_it_up(string)
-  if string[0] == "s"
-      binding.pry
+  if string.match(/^s/)
+  #    binding.pry
     10.times {puts "'s' + #{string}"}
 
   else
