@@ -2,11 +2,10 @@
 require 'pry'
 
 def snake_it_up(string)
+   binding.pry
   if string.match(/^s/)
   #  binding.pry
-    10.times do puts 's' +
-  binding.pry
-#      "#{string}"
+    10.times puts 's' + "#{string}"
 #binding.pry
 
   else
