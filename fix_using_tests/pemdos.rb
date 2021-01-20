@@ -3,8 +3,8 @@ require 'pry'
 
 def snake_it_up(string)
 #   binding.pry
-  if string.start_with?("s")
-  binding.pry
+  if string.start_with?("s") == true
+#  binding.pry
   puts "ssssssssss" + "#{string}!"
 #binding.pry
 
