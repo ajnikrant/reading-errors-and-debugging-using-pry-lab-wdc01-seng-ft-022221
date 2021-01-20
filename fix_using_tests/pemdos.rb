@@ -5,7 +5,7 @@ def snake_it_up(string)
   if string.match(/^s/)
   #  binding.pry
     10.times puts 's' + "#{string}"
-binding.pry
+#binding.pry
 
   else
     string
